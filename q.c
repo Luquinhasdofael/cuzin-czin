@@ -15,11 +15,11 @@ int main() {
     else {
     double delta = sqrt(raiz);
     double r1;
-    r1 = (delta + (b * -1)) / (2 * a);
+    r1 = (-b + delta) / (2 * a);
     double r2;
-    r2 = (delta - (b * -1)) / (2 * a);
-    printf("R1 = %lf\n", r1);
-    printf("R2 = %lf\n", r2);
+    r2 = (-b - delta) / (2 * a);
+    printf("R1 = %.5lf\n", r1);
+    printf("R2 = %.5lf\n", r2);
     }
     return 0;
 }
