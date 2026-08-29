@@ -2,7 +2,7 @@
 int main() {
     float a;
     scanf("%f", &a);
-    if (a > 0 && a <= 25) {
+    if (a >= 0 && a <= 25) {
         printf("Intervalo [0,25]\n");
     } else if (a > 25 && a <= 50) {
         printf("Intervalo (25,50]\n");
