@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-int main() {
+int main(void) {
     double a;
     scanf("%lf", &a);
     double b;
@@ -21,5 +21,4 @@ int main() {
     printf("R1 = %.5lf\n", r1);
     printf("R2 = %.5lf\n", r2);
     }
-    return 0;
 }
